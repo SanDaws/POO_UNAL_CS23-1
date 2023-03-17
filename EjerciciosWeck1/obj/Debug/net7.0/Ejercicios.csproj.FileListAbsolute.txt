@@ -1,0 +1,15 @@
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\bin\Debug\net7.0\Ejercicios.exe
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\bin\Debug\net7.0\Ejercicios.deps.json
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\bin\Debug\net7.0\Ejercicios.runtimeconfig.json
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\bin\Debug\net7.0\Ejercicios.dll
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\bin\Debug\net7.0\Ejercicios.pdb
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.csproj.AssemblyReference.cache
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.AssemblyInfoInputs.cache
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.AssemblyInfo.cs
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.csproj.CoreCompileInputs.cache
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.dll
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\refint\Ejercicios.dll
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.pdb
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\Ejercicios.genruntimeconfig.cache
+E:\Documentos\UNAL\OOP\Ejercicios\EjerciciosWeck1\obj\Debug\net7.0\ref\Ejercicios.dll
