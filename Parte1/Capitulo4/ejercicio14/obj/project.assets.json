@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documentos\\UNAL\\OOP\\Ejerciciosparte1\\Capitulo4\\ejercicio14\\ejercicio14.csproj",
+      "projectUniqueName": "E:\\Documentos\\UNAL\\OOP\\ejercicios\\POO_UNAL_CS23-1\\Parte1\\Capitulo4\\ejercicio14\\ejercicio14.csproj",
       "projectName": "ejercicio14",
-      "projectPath": "E:\\Documentos\\UNAL\\OOP\\Ejerciciosparte1\\Capitulo4\\ejercicio14\\ejercicio14.csproj",
+      "projectPath": "E:\\Documentos\\UNAL\\OOP\\ejercicios\\POO_UNAL_CS23-1\\Parte1\\Capitulo4\\ejercicio14\\ejercicio14.csproj",
       "packagesPath": "C:\\Users\\castr\\.nuget\\packages\\",
-      "outputPath": "E:\\Documentos\\UNAL\\OOP\\Ejerciciosparte1\\Capitulo4\\ejercicio14\\obj\\",
+      "outputPath": "E:\\Documentos\\UNAL\\OOP\\ejercicios\\POO_UNAL_CS23-1\\Parte1\\Capitulo4\\ejercicio14\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\castr\\AppData\\Roaming\\NuGet\\NuGet.Config",

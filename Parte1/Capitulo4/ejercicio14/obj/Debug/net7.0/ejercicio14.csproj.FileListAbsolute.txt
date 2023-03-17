@@ -1,0 +1,15 @@
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\bin\Debug\net7.0\ejercicio14.exe
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\bin\Debug\net7.0\ejercicio14.deps.json
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\bin\Debug\net7.0\ejercicio14.runtimeconfig.json
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\bin\Debug\net7.0\ejercicio14.dll
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\bin\Debug\net7.0\ejercicio14.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.csproj.AssemblyReference.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.AssemblyInfoInputs.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.AssemblyInfo.cs
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.csproj.CoreCompileInputs.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.dll
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\refint\ejercicio14.dll
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ejercicio14.genruntimeconfig.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Parte1\Capitulo4\ejercicio14\obj\Debug\net7.0\ref\ejercicio14.dll
