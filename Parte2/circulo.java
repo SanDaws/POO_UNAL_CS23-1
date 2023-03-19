@@ -4,10 +4,7 @@
  */
 package ejercicios1semana;
 import java.util.Scanner;
-/**
- *
- * @author PAULINA HENAO GARCIA
- */
+
 public class circulo {
     public static void main(String[] args){
         System.out.print("Ingrese el radio del circulo:\n");
