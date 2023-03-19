@@ -4,10 +4,7 @@
  */
 package ejercicios1semana;
 import java.util.Scanner;
-/**
- *
- * @author PAULINA HENAO GARCIA
- */
+
 public class cuadrado {
     public static void main(String[]args){
         System.out.println("Ingrese un numero:");
