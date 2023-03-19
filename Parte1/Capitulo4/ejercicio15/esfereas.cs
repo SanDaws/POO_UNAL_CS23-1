@@ -44,14 +44,7 @@ namespace ejercicio15
                     Console.WriteLine(" DE MENOR PESO");
                  }
                  
-                 
-                
-
-
-                 
             }
-
-            
         }
     }
 }
