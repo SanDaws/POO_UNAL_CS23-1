@@ -1,0 +1,11 @@
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.FrmMenu.resources
