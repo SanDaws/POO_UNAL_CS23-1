@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejercicio15.cs">
+    <Compile Include="Ejercicios\TrianguloEquilatero.cs" />
+    <Compile Include="Ejercicios\Ex_EcuSegundoGrado.cs" />
+    <Compile Include="Ejercicios\Ex_hora_laboral.cs" />
+    <Compile Include="Ejercicios\Ex_Matricula_Estudiantil.cs" />
+    <Compile Include="Ejercicios\Ex_NumerosIguales.cs" />
+    <Compile Include="Ejercicios_Formularios\Ejercicio18.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejercicio15.Designer.cs">
-      <DependentUpon>Ejercicio15.cs</DependentUpon>
+    <Compile Include="Ejercicios_Formularios\Ejercicio18.Designer.cs">
+      <DependentUpon>Ejercicio18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios\SalarioN-B.cs" />
+    <Compile Include="Ejercicios_Formularios\Ejercico19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ejercico19.Designer.cs">
+      <DependentUpon>Ejercico19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_EcuSegundoGrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_EcuSegundoGrado.Designer.cs">
+      <DependentUpon>Ex_EcuSegundoGrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_Hora_laboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_Hora_laboral.Designer.cs">
+      <DependentUpon>Ex_Hora_laboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_Matricula_Estudiantil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\Ex_Matricula_Estudiantil.Designer.cs">
+      <DependentUpon>Ex_Matricula_Estudiantil.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
@@ -58,10 +88,16 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios_Formularios\FrmNumerosIguales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Formularios\FrmNumerosIguales.Designer.cs">
+      <DependentUpon>FrmNumerosIguales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ejercicio15.resx">
-      <DependentUpon>Ejercicio15.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicios_Formularios\Ejercicio18.resx">
+      <DependentUpon>Ejercicio18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>

@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Ejercicio1
 {
-    public partial class FrmMenu : Form
+    public partial class Ejercicio18 : Form
     {
-        public FrmMenu()
+        public Ejercicio18()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Ejercicio15_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1
+namespace Ejercicio1.Ejercicios_Formularios
 {
-    public partial class FrmMenu : Form
+    public partial class Ex_Hora_laboral : Form
     {
-        public FrmMenu()
+        public Ex_Hora_laboral()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

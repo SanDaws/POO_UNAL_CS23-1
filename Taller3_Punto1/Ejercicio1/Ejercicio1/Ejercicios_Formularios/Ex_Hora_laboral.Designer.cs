@@ -1,6 +1,6 @@
-﻿namespace Ejercicio1
+﻿namespace Ejercicio1.Ejercicios_Formularios
 {
-    partial class Ejercicio15
+    partial class Ex_Hora_laboral
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Ejercicio15
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Ejercicio15";
-            this.Text = "Ejercicio15";
-            this.Load += new System.EventHandler(this.Ejercicio15_Load);
-            this.ResumeLayout(false);
-
+            this.Text = "Ex_Hora_laboral";
         }
 
         #endregion

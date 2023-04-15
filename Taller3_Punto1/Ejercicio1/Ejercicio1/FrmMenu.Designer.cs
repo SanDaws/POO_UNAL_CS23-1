@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.LBTitulo = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_Resumen = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Entrar = new System.Windows.Forms.Button();
+            this.Btn_Cerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LBTitulo
@@ -44,51 +44,60 @@
             this.LBTitulo.TabIndex = 0;
             this.LBTitulo.Text = "Elija  el ejercicio que desea ver";
             // 
-            // label2
+            // lbl_Resumen
             // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.Location = new System.Drawing.Point(256, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(220, 138);
-            this.label2.TabIndex = 1;
+            this.lbl_Resumen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Resumen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lbl_Resumen.Location = new System.Drawing.Point(316, 27);
+            this.lbl_Resumen.Name = "lbl_Resumen";
+            this.lbl_Resumen.Size = new System.Drawing.Size(389, 259);
+            this.lbl_Resumen.TabIndex = 1;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(50, 76);
+            this.comboBox1.Items.AddRange(new object[] {
+            "Salario Empleados",
+            "Triangulo Equilatero",
+            "Numeros <=>",
+            "Hora laboral",
+            "Ecuacion de segundo grado",
+            "Matricula Estudiantil",
+            "Numeros Iguales",
+            ""});
+            this.comboBox1.Location = new System.Drawing.Point(50, 112);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(150, 21);
             this.comboBox1.TabIndex = 2;
             // 
-            // button1
+            // btn_Entrar
             // 
-            this.button1.Location = new System.Drawing.Point(271, 202);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Acceder";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Entrar.Location = new System.Drawing.Point(329, 320);
+            this.btn_Entrar.Name = "btn_Entrar";
+            this.btn_Entrar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Entrar.TabIndex = 3;
+            this.btn_Entrar.Text = "Acceder";
+            this.btn_Entrar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Btn_Cerrar
             // 
-            this.button2.Location = new System.Drawing.Point(375, 202);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Salir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btn_Cerrar.Location = new System.Drawing.Point(533, 320);
+            this.Btn_Cerrar.Name = "Btn_Cerrar";
+            this.Btn_Cerrar.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Cerrar.TabIndex = 4;
+            this.Btn_Cerrar.Text = "Salir";
+            this.Btn_Cerrar.UseVisualStyleBackColor = true;
+            this.Btn_Cerrar.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmMenu
             // 
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(500, 250);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(750, 400);
+            this.Controls.Add(this.Btn_Cerrar);
+            this.Controls.Add(this.btn_Entrar);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_Resumen);
             this.Controls.Add(this.LBTitulo);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenu";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -102,10 +111,10 @@
         #endregion
 
         private System.Windows.Forms.Label LBTitulo;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_Resumen;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Entrar;
+        private System.Windows.Forms.Button Btn_Cerrar;
     }
 }
 

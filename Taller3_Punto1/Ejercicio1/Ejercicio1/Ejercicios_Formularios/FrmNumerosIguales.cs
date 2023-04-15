@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Ejercicio1
 {
-    public partial class Ejercicio15 : Form
+    public partial class FrmNumerosIguales : Form
     {
-        public Ejercicio15()
+        public FrmNumerosIguales()
         {
             InitializeComponent();
-        }
-
-        private void Ejercicio15_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
