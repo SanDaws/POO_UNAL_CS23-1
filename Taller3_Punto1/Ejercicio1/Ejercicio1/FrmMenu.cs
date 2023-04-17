@@ -49,9 +49,9 @@ namespace Ejercicio1
                         "perímetro, el valor de la altura y el área del triángulo.";
                     break;
                 case 2:// cp4 7
-                    lbl_Resumen.Text="Capitulo 4 ejerccicio 7:\n"+
+                    lbl_Resumen.Text = "Capitulo 4 ejerccicio 7:\n" +
                         "Hacer un algoritmo que, dados dos valores numéricos A y B, " +
-                        "escriba un mensaje diciendo\r\nsi A es mayor, menor o igual a B."
+                        "escriba un mensaje diciendo\r\nsi A es mayor, menor o igual a B.";
                     break;
                 case 3://  cp4 10
                     lbl_Resumen.Text = "Capitulo 4 ejerccicio 10:\n" +
