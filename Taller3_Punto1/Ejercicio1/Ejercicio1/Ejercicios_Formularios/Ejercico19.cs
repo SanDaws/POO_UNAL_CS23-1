@@ -16,5 +16,10 @@ namespace Ejercicio1
         {
             InitializeComponent();
         }
+
+        private void Ejercico19_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio1.Ejercicios_Formularios
 {
-    partial class Ex_Hora_laboral
+    partial class FrmHora_laboral
     {
         /// <summary>
         /// Required designer variable.

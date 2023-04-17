@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio1.Ejercicios_Formularios
 {
-    partial class Ex_Matricula_Estudiantil
+    partial class FrmEcuSegundoGrado
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Ex_Matricula_Estudiantil";
+            this.Text = "Ex_EcuSegundoGrado";
         }
 
         #endregion

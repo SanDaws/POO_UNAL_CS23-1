@@ -30,7 +30,7 @@
         {
             this.LBTitulo = new System.Windows.Forms.Label();
             this.lbl_Resumen = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CmBox_Ejercicios = new System.Windows.Forms.ComboBox();
             this.btn_Entrar = new System.Windows.Forms.Button();
             this.Btn_Cerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -50,25 +50,26 @@
             this.lbl_Resumen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lbl_Resumen.Location = new System.Drawing.Point(316, 27);
             this.lbl_Resumen.Name = "lbl_Resumen";
-            this.lbl_Resumen.Size = new System.Drawing.Size(389, 259);
+            this.lbl_Resumen.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbl_Resumen.Size = new System.Drawing.Size(362, 259);
             this.lbl_Resumen.TabIndex = 1;
             // 
-            // comboBox1
+            // CmBox_Ejercicios
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Salario Empleados",
-            "Triangulo Equilatero",
-            "Numeros <=>",
-            "Hora laboral",
-            "Ecuacion de segundo grado",
+            this.CmBox_Ejercicios.FormattingEnabled = true;
+            this.CmBox_Ejercicios.Items.AddRange(new object[] {
+            "Salario Base y Neto",
+            "Triagulos Equilateros",
+            "numeros >=<",
             "Matricula Estudiantil",
-            "Numeros Iguales",
-            ""});
-            this.comboBox1.Location = new System.Drawing.Point(50, 112);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 21);
-            this.comboBox1.TabIndex = 2;
+            "Salario >450 000",
+            "Ecuacion Segundo Grado"});
+            this.CmBox_Ejercicios.Location = new System.Drawing.Point(50, 112);
+            this.CmBox_Ejercicios.Name = "CmBox_Ejercicios";
+            this.CmBox_Ejercicios.Size = new System.Drawing.Size(150, 21);
+            this.CmBox_Ejercicios.TabIndex = 2;
+            this.CmBox_Ejercicios.Text = "Elija una opcion...";
+            this.CmBox_Ejercicios.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btn_Entrar
             // 
@@ -78,6 +79,7 @@
             this.btn_Entrar.TabIndex = 3;
             this.btn_Entrar.Text = "Acceder";
             this.btn_Entrar.UseVisualStyleBackColor = true;
+            this.btn_Entrar.Click += new System.EventHandler(this.btn_Entrar_Click);
             // 
             // Btn_Cerrar
             // 
@@ -95,7 +97,7 @@
             this.ClientSize = new System.Drawing.Size(750, 400);
             this.Controls.Add(this.Btn_Cerrar);
             this.Controls.Add(this.btn_Entrar);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CmBox_Ejercicios);
             this.Controls.Add(this.lbl_Resumen);
             this.Controls.Add(this.LBTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -112,7 +114,7 @@
 
         private System.Windows.Forms.Label LBTitulo;
         private System.Windows.Forms.Label lbl_Resumen;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CmBox_Ejercicios;
         private System.Windows.Forms.Button btn_Entrar;
         private System.Windows.Forms.Button Btn_Cerrar;
     }

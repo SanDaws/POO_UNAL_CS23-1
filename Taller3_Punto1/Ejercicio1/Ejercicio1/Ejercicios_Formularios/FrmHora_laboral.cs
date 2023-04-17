@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejercicio1.Ejercicios_Formularios
 {
-    public partial class Ex_Matricula_Estudiantil : Form
+    public partial class FrmHora_laboral : Form
     {
-        public Ex_Matricula_Estudiantil()
+        public FrmHora_laboral()
         {
             InitializeComponent();
         }
