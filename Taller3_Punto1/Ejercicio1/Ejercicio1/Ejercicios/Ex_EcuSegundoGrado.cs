@@ -9,9 +9,9 @@ namespace Ejercicio1.Ejercicios
     internal class Ex_EcuSegundoGrado
     {
         //ejercicio 22 capitulo4
-        Double _A, _B, _C;
-        Double _val1, _val2;
-        Double _Det;
+        private double _A, _B, _C;
+        private double _val1, _val2;
+        private double _Det;
         public Ex_EcuSegundoGrado() { }
         public Ex_EcuSegundoGrado(Double _A, Double _B, Double _C)
         {
@@ -20,15 +20,33 @@ namespace Ejercicio1.Ejercicios
             this._C = _C;
         }
         //mutadores
-        public Double A
+        public double A
         {
             get { return _A; }
             set { _A = value; }
         }
-        public Double B { get; set; }
-        public Double C { get; set; }
-        public double Val1 { get; set; }
-        public double Val2 { get; set; }
+        public double B
+        {
+            get { return _B; }
+            set { _B = value; }
+        }
+
+        public double C {
+            get { return _C; }
+            set { _C = value; }
+        }
+        public double Val1 {
+            get { return _val1; }
+            set { _val1 = value; }
+        }
+        public double Val2
+        {
+            get { return _val2; }
+            set
+            {
+                _val2 = value;
+            }
+        }
         //metodos
         public void determinante()
         {

@@ -96,11 +96,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicios_Formularios\FrmEcuSegundoGrado.resx">
+      <DependentUpon>FrmEcuSegundoGrado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios_Formularios\FrmEjercicio18.resx">
       <DependentUpon>FrmEjercicio18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios_Formularios\Ejercico19.resx">
       <DependentUpon>Ejercico19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Formularios\FrmHora_laboral.resx">
+      <DependentUpon>FrmHora_laboral.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios_Formularios\FrmMatricula_Estudiantil.resx">
       <DependentUpon>FrmMatricula_Estudiantil.cs</DependentUpon>
