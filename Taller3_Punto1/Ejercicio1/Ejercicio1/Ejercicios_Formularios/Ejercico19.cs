@@ -35,7 +35,7 @@ namespace Ejercicio1
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            _TE._ladoTriangulo = float.Parse(TxbAltura.Text);
+            _TE.ladotraingulo = float.Parse(TxbAltura.Text);
             LblArea.Text= _TE.Area().ToString();
             LblPerimtero.Text=_TE.Perimetro().ToString();
             LblAltura.Text= _TE.Altura().ToString();

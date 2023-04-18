@@ -12,3 +12,4 @@ E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejer
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Ejercicio18.resources
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Ejercico19.resources
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.FrmNumerosIguales.resources
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Taller3_Punto1\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Ejercicios_Formularios.FrmMatricula_Estudiantil.resources
