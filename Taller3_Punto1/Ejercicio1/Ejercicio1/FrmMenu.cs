@@ -121,5 +121,10 @@ namespace Ejercicio1
                     break;
             }
         }
+
+        private void FrmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

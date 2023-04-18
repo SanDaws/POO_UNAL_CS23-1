@@ -131,11 +131,13 @@
             this.lblRepueta.Name = "lblRepueta";
             this.lblRepueta.Size = new System.Drawing.Size(156, 70);
             this.lblRepueta.TabIndex = 12;
+            this.lblRepueta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmMatricula_Estudiantil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(511, 235);
             this.Controls.Add(this.lblRepueta);
             this.Controls.Add(this.Btn_Salir);
