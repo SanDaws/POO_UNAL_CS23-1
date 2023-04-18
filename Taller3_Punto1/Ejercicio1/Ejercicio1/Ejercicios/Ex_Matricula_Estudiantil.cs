@@ -8,9 +8,10 @@ namespace Ejercicio1.Ejercicios
 {
     internal class Ex_Matricula_Estudiantil
     {
-        private int _numInsc, _estrato, _matricula;
-        private String _nombre;
-        private float _patrimonio;
+        private int _numInsc, _estrato;
+        private String _nombre, _respuesta;
+        private float _patrimonio, _matricula;
+
 
         public Ex_Matricula_Estudiantil() { }
 
@@ -38,13 +39,28 @@ namespace Ejercicio1.Ejercicios
             get { return _nombre; }
             set { _nombre = value; }
         }
-        public int matricula
+        public float matricula
         {
             get { return _matricula; }
             set
             {
                 _matricula = value;
             }
+        }
+
+
+        public String CalcMatricula() {
+            if (_patrimonio > 2000000 && _estrato > 3)
+            {
+                _matricula = 50000 + ((_patrimonio * 3) / 100);
+                _respuesta = ($"El numero de inscripcion es  { _numInsc },  el nombre del estudiante es {_nombre}  y el valor de matricula es {matricula}" );
+            }
+            else
+            {
+                matricula = 50000;
+                _respuesta = ($"El numero de inscripcion es  {_numInsc},  el nombre del estudiante es {_nombre}  y el valor de matricula es {matricula}");
+            }
+            return _respuesta;
         }
     }
 }
