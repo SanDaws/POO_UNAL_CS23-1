@@ -102,6 +102,9 @@
     <EmbeddedResource Include="Ejercicios_Formularios\Ejercico19.resx">
       <DependentUpon>Ejercico19.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Formularios\FrmNumerosIguales.resx">
+      <DependentUpon>FrmNumerosIguales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>

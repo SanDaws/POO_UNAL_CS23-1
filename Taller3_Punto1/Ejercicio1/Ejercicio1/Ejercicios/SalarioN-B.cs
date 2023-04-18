@@ -36,10 +36,22 @@ namespace Ejercicio1.Ejercicios
         public int horas { get; set; }
         public string nombre { get; set; } 
         public int codigo { get; set; }  
-        public double valHoras { get; set; }
-        public double retencion { get; set; }
-        public double salarioB { get; set; }  
-        public double salarioA { get; set; }
+        public double valHoras {
+            get { return _valhoras; }
+            set { _valhoras = value; }
+            }
+        public double retencion {
+            get { return _retencion; }
+            set { _retencion  = value; }
+        }
+        public double salarioB {
+            get { return _salarioB; }
+            set { _salarioB = value; }
+        }  
+        public double salarioN {
+            get { return _salarioN; }
+            set { _salarioN = value; }
+        }
         
        //metodos
         public double  calSalarioBase()
