@@ -1,6 +1,6 @@
-﻿namespace Trabajo4.Diseño
+﻿namespace Trabajo4.Forms
 {
-    partial class Actividad3
+    partial class FrmActividad4
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Actividad3";
+            this.Text = "Actividad4";
         }
 
         #endregion

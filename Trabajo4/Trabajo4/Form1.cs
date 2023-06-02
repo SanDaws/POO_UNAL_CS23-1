@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Trabajo4.Clases;
+using Trabajo4.Diseño;
+using Trabajo4.Forms;
 
 namespace Trabajo4
 {
@@ -41,8 +44,24 @@ namespace Trabajo4
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+           // if (cbxLinea.SelectedIndex== default || cbxLinea.SelectedIndex==)
+            
             //permite la entrada a la funcion
-              
+            switch (cbxLinea.SelectedIndex)
+            {
+                case 0:
+                    FrmActividad3 frmActividad3 = new FrmActividad3();
+                    frmActividad3.Show();
+                    this.Hide();
+                    break;
+                case 1:
+                    FrmActividad4 frmActividad4= new FrmActividad4();
+                    frmActividad4.Show();
+                    this.Hide(); 
+                    break;
+             
+            }
+            
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

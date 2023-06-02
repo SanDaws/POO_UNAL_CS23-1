@@ -9,3 +9,4 @@ E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Trabajo4\Trabajo4\obj\Debug\Tr
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Trabajo4\Trabajo4\obj\Debug\Trabajo4.csproj.CoreCompileInputs.cache
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Trabajo4\Trabajo4\obj\Debug\Trabajo4.exe
 E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Trabajo4\Trabajo4\obj\Debug\Trabajo4.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\Trabajo4\Trabajo4\obj\Debug\Trabajo4.Diseño.FrmActividad3.resources

@@ -47,13 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Ejercicio3.cs" />
-    <Compile Include="Clases\Ejercicio5.cs" />
     <Compile Include="Clases\Ejercico4.cs" />
-    <Compile Include="Forms\Actividad3.cs">
+    <Compile Include="Forms\FrmActividad3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Actividad3.Designer.cs">
-      <DependentUpon>Actividad3.cs</DependentUpon>
+    <Compile Include="Forms\FrmActividad3.Designer.cs">
+      <DependentUpon>FrmActividad3.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -61,22 +60,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Actividad4.cs">
+    <Compile Include="Forms\FrmActividad4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Actividad4.Designer.cs">
-      <DependentUpon>Actividad4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Actividad5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Actividad5.Designer.cs">
-      <DependentUpon>Actividad5.cs</DependentUpon>
+    <Compile Include="Forms\FrmActividad4.Designer.cs">
+      <DependentUpon>FrmActividad4.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmActividad3.resx">
+      <DependentUpon>FrmActividad3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
