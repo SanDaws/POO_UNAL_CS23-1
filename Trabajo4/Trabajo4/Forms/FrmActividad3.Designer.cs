@@ -41,6 +41,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.rdbCaninus = new System.Windows.Forms.RadioButton();
             this.rdbFelinos = new System.Windows.Forms.RadioButton();
+            this.btnMostrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -64,6 +65,7 @@
             this.cbxAnimal.Name = "cbxAnimal";
             this.cbxAnimal.Size = new System.Drawing.Size(167, 21);
             this.cbxAnimal.TabIndex = 1;
+            this.cbxAnimal.SelectedIndexChanged += new System.EventHandler(this.cbxAnimal_SelectedIndexChanged);
             // 
             // btnSalir
             // 
@@ -156,7 +158,7 @@
             this.rdbCaninus.TabStop = true;
             this.rdbCaninus.Text = "Canidos";
             this.rdbCaninus.UseVisualStyleBackColor = true;
-            this.rdbCaninus.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rdbCaninus.CheckedChanged += new System.EventHandler(this.rdbCaninus_CheckedChanged);
             // 
             // rdbFelinos
             // 
@@ -168,13 +170,24 @@
             this.rdbFelinos.TabStop = true;
             this.rdbFelinos.Text = "Felinos";
             this.rdbFelinos.UseVisualStyleBackColor = true;
-            this.rdbFelinos.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.rdbFelinos.CheckedChanged += new System.EventHandler(this.rdbFelinos_CheckedChanged);
+            // 
+            // btnMostrar
+            // 
+            this.btnMostrar.Location = new System.Drawing.Point(38, 167);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.btnMostrar.TabIndex = 15;
+            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // FrmActividad3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(636, 296);
+            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.rdbFelinos);
             this.Controls.Add(this.rdbCaninus);
             this.Controls.Add(this.label8);
@@ -210,5 +223,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton rdbCaninus;
         private System.Windows.Forms.RadioButton rdbFelinos;
+        private System.Windows.Forms.Button btnMostrar;
     }
 }
