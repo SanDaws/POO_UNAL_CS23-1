@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8BF67B16-75D4-49EE-AFA1-5A75AA854FD8}</ProjectGuid>
+    <ProjectGuid>{9F64A5E4-8F94-44BA-9032-5D9806861EEE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Trabajo4</RootNamespace>
-    <AssemblyName>Trabajo4</AssemblyName>
+    <RootNamespace>Ejercicio3</RootNamespace>
+    <AssemblyName>Ejercicio3</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,33 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Ejercicio3.cs" />
-    <Compile Include="Clases\Ejercico4.cs" />
-    <Compile Include="Forms\FrmActividad3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmActividad3.Designer.cs">
-      <DependentUpon>FrmActividad3.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Animal.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmActividad4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmActividad4.Designer.cs">
-      <DependentUpon>FrmActividad4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmActividad3.resx">
-      <DependentUpon>FrmActividad3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
