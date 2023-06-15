@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Punto1
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

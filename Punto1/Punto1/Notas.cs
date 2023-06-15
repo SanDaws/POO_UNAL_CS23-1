@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Punto1
+{
+    internal class Notas
+    {
+        double<list> nota= new 
+
+        public Notas() { }
+
+    }
+}
