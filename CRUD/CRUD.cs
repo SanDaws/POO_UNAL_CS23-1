@@ -28,7 +28,7 @@ namespace CRUD
                 {
                         using (StreamWriter _escritor = new StreamWriter(_path))//creamos un archivo
                         {
-                            _escritor.WriteLine($"{_datos._nombre};{_datos._numero}");
+                            _escritor.WriteLine($"{_datos._nombre}~{_datos._numero}");
                         }
                     
                     
@@ -38,7 +38,7 @@ namespace CRUD
                     using (StreamWriter _escritor = File.AppendText(_path))
                     { // lo abrimos
                         
-                        _escritor.WriteLine($"{_datos._nombre};{_datos._numero}",0);
+                        _escritor.WriteLine($"{_datos._nombre}~{_datos._numero}",0);
 
 
                     }
@@ -66,8 +66,9 @@ namespace CRUD
                     
                     while((_linea= _lector.ReadLine())!=null)
                     {
-                        _linea.Split(';');
+                        _linea.Split('~');
                         _nombresCodigo.Add(_linea);
+                        return _linea;
                     }
                 }
             }catch(Exception)
