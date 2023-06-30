@@ -1,0 +1,11 @@
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\bin\Debug\CRUD.exe.config
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\bin\Debug\CRUD.exe
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\bin\Debug\CRUD.pdb
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.Form1.resources
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.exe
+E:\Documentos\UNAL\OOP\ejercicios\POO_UNAL_CS23-1\CRUD\obj\Debug\CRUD.pdb
