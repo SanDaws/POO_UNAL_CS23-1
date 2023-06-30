@@ -35,8 +35,9 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbxNumero = new System.Windows.Forms.TextBox();
+            this.tbxNombre = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCrear
@@ -47,11 +48,12 @@
             this.btnCrear.TabIndex = 0;
             this.btnCrear.Text = "Crear";
             this.btnCrear.UseVisualStyleBackColor = true;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 50);
+            this.label1.Location = new System.Drawing.Point(24, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 1;
@@ -60,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 123);
+            this.label2.Location = new System.Drawing.Point(24, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 3;
@@ -74,6 +76,7 @@
             this.btnRead.TabIndex = 5;
             this.btnRead.Text = "Leer";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click_1);
             // 
             // btnUpdate
             // 
@@ -103,27 +106,38 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // textBox1
+            // tbxNumero
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 20);
-            this.textBox1.TabIndex = 9;
+            this.tbxNumero.Location = new System.Drawing.Point(81, 120);
+            this.tbxNumero.Name = "tbxNumero";
+            this.tbxNumero.Size = new System.Drawing.Size(182, 20);
+            this.tbxNumero.TabIndex = 9;
             // 
-            // textBox2
+            // tbxNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 20);
-            this.textBox2.TabIndex = 10;
+            this.tbxNombre.Location = new System.Drawing.Point(81, 47);
+            this.tbxNombre.Name = "tbxNombre";
+            this.tbxNombre.Size = new System.Drawing.Size(182, 20);
+            this.tbxNombre.TabIndex = 10;
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoEllipsis = true;
+            this.lblResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblResultado.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblResultado.Location = new System.Drawing.Point(318, 9);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(133, 200);
+            this.lblResultado.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 291);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.tbxNombre);
+            this.Controls.Add(this.tbxNumero);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -132,7 +146,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCrear);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CRUD en Archivos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,8 +161,9 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbxNumero;
+        private System.Windows.Forms.TextBox tbxNombre;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
 
