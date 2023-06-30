@@ -59,8 +59,8 @@ namespace CRUD
         public List<String> Read()
         {
             String _linea = "";
-            List<String> _nombresCodigo = new List<String>();
-
+            List<String> __palabras = new List<string>();
+            
             try
             {
                 using (StreamReader _lector = new StreamReader(_path))
@@ -68,8 +68,12 @@ namespace CRUD
 
                     while ((_linea = _lector.ReadLine()) != null)
                     {
-                        _linea.Split('~');
-                        _nombresCodigo.Add(_linea);
+                        
+                        _linea = _lector.ReadLine();
+
+                        String[] palabras = _linea.Split('~');
+                        __palabras.Add(palabras[0]);
+                        __palabras.Add(palabras[1]);
                         
                     }
                 }
@@ -78,7 +82,7 @@ namespace CRUD
             {
                 MessageBox.Show("Ruta no encontrada");
             }
-            return "1";
+            return __palabras;
         }
         public void update(datos _datos)
         {

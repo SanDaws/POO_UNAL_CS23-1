@@ -55,9 +55,17 @@ namespace CRUD
         private void btnRead_Click_1(object sender, EventArgs e)
         {
             //List<string> linealeida = new List<string>();
-            String linealeida;
+            List<String> linealeida;
             linealeida = _crud.Read();
-            lblResultado.Text = linealeida;
+            int n = 0;
+            int k = 1;
+            foreach (String line in linealeida)
+            {
+                
+                lblResultado.Text = $"Nombre: {line[n]}\n numero:{line[k]}";
+                n++;
+                k++;
+            }
         }
     }
 }
